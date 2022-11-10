@@ -8,5 +8,21 @@
   "question": "How many Lord of the Rings are there?\n(a) Two\n(b) Three\n(c) Four\n(d) Five\n",
   "answer": "b",
   "user_response": "None"
+  },
+"3": {
+  "question": "Which actor appeared in the films, 'Face Off' and 'Ghost Rider'?\n(a) Robert Downey Jr\n(b) Jared Leto\n(c) Tom Hardy\n(d) Nicolas Cage\n",
+  "answer": "d",
+  "user_response": "None"
+},
+"4": {
+  "question": "Which actress won the Oscar for Best Actress in 2003?\n(a) Nicole Kidman\n(b) Emily Blunt\n(c) Charlize Theron\n(d) Emma Stone\n",
+  "answer": "a",
+  "user_response": "None"
+},
+"5": {
+  "question": "What is the name of Batman's butler?\n(a) Charles Carson\n(b) Wadsworth\n(c) Alfred Pennyworth\n(d) Sebastian Michaelis",
+  "answer": "c",
+  "user_response": "None"
+}
 } 
-}  
+ 
