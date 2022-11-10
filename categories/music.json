@@ -1,7 +1,27 @@
 {
 "1": {
-    "question": "How many films did Sean Connery play James Bond?:\n(a) Three\n(b) Five \n(c) Seven\n(d) Eight\n",
-    "answer": "c",
-    "user_response": "None"
-  }
+  "question": "What is the name of the group Justin Timberlake used to be part of?:\n(a) Back Street Boys\n(b) N'SYNC \n(c) New Kids On The Block\n(d) Dream Street\n",
+  "answer": "b",
+  "user_response": "None"
+  },
+"2": {
+  "question": "Which country did AC/DC originate in?:\n(a) Australia\n(b) America\n(c) UK\n(d) Germany",
+  "answer": "a",
+  "user_response": "None"
+},
+"3": {
+  "question": "Which genre of music did Taylor Swift start in?\n(a) Rock\n(b) Pop\n(c) Dance\n(d) Country",
+  "answer": "d",
+  "user_response": "None"
+},
+"4": {
+  "question": "Which name is rapper Sean Combs better known by?\n(a) Natorious BIG\n(b) Jay-Z\n(c) Drake\n(d) P.Diddy",
+  "answer": "d",
+  "user_response": "None"
+},
+"5": {
+  "question": "How many Grammys does John Legend have?\n(a) Six\n(b) Eight\n(c) Ten\n(d) Eleven",
+  "answer": "c",
+  "user_response": "None"
+}
 }  
