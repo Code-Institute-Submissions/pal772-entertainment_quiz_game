@@ -1,7 +1,27 @@
 {
-"1": {
-    "question": "How many films did Sean Connery play James Bond?:\n(a) Three\n(b) Five \n(c) Seven\n(d) Eight\n",
+  "1": {
+    "question": "US sitcom Frasier(1993-2004) is a spin-off series from which popular comedy?:\n(a) Friends\n(b) Cheers\n(c) Will & Grace\n(d) Curb Your Enthusiasm\n",
+    "answer": "b",
+    "user_response": "None"
+  },
+  "2": {
+    "question": "How many hosts of The Great British Bake-Off have there been?:\n(a) Two\n(b) Three\n(c) Five\n(d) Six\n",
     "answer": "c",
+    "user_response": "None"
+  },
+  "3": {
+    "question": "Where is Stictly Come Dancing filmed?:\n(a) Elstree Studios\n(b) Longcross Studios\n(c) 3 Mills Studios\n(d) Shepperton Studios\n",
+    "answer": "a",
+    "user_response": "None"
+  },
+  "4": {
+    "question": "In which year did Coronation Street first air on ITV?:\n(a) 1972\n(b) 1965\n(c) 1962\n(d) 1960\n",
+    "answer": "d",
+    "user_response": "None"
+  },
+  "5": {
+    "question": "What colour is Thunderbirds 2 piloted by Virgil Tracy in Thunderbirds?:\n(a) Blue\n(b) Green\n(c) Yellow\n(d) Black\n",
+    "answer": "b",
     "user_response": "None"
   }
 }  
