@@ -31,16 +31,11 @@ The project purpose is presentation of an interactive game. The site should resp
     *   [Import requirements](#import-requirements)
 *   [Testing and validation](testing-validation)
     *   [Bugs/known issues](#bugsknown-issues)
-
-
-    *   [Browser compatibility](#browser-compatibility)
-    *   [Platforms/devices](#platformsdevices)
-    *   [Responsiveness](#responsiveness)
     *   [Peer review](#peer-review)
-    *   [Deployment](#deployment)
-    *   [Credits](#credits)
+*   [Deployment](#deployment)
+    *   [Heroku](#heroku)
+*   [Credits](#credits)
     *   [Code](#code)
-    *   [Media](#media)
     *   [Learning-Resorces](#learning-resources)
     *   [Acknowledgements](#acknowledgements)
 
@@ -131,6 +126,7 @@ The project purpose is presentation of an interactive game. The site should resp
 
 - [time](https://docs.python.org/3/library/time.html)
 
+[Back to Top](<#table-of-content>)
 ## Testing and validation
 
 I have manually tested this project by doing the following:
@@ -143,9 +139,49 @@ I have manually tested this project by doing the following:
    * PEP8 errors will now be underlined in red, as well as being listed in the PROBLEMS tab besides your terminal.<br>As shown in [image 3](views/readme-images/image3.png)
 
 
+ ### Peer review
 
+   - I asked my friends and coleagues to test the quiz and I received a lot of positive    feedback, no major issues were reported.
+   - Maybe add more questions.
+   - For future reference, could add levels of difficulty and a timer.
 
+ [Back to Top](<#table-of-content>)
+ ## Deployment
 
+ ### Heroku
+
+[Official Page](https://devcenter.heroku.com/articles/git) (Ctrl + click)
+  * Log in to your account at heroku.com.
+  * Create a new app, add a unique app name and choose your region.
+  * Click on create app.
+  * Go to "Settings".
+  * Under Config Vars store any sensitive data in .json file. Name 'Key' field, copy the .json file paste it to 'Value' field. Also add a key 'PORT' and value '8000'.
+  * Add required buildpacks. For this project, I set up 'Python' and 'node.js' in that order.
+  * Go to "Deploy" and select "GitHub" in "Deployment method"
+  * To link up the Heroku app to our Github repository code enter your repository name, click 'Search' and then 'Connect' when it shows below.
+  * Choose the branch you want to buid your app from.
+  * If prefered, click on "Enable Automatic Deploys", which keeps the app up to date with your GitHub repository
+  *  Wait for the app to build. Once ready you will see the “App was successfully deployed” message and a 'View' button to take you to your deployed link.
+
+[Back to Top](<#table-of-content>)
+##  Credits
+
+### Code
+  * Code Institute Slack community, helping me get through this project.
+  * My Mentor, Sammy Dartnall making sure i covered all the necessary requirements.
+
+### Learning resources
+
+- [Code Institute course and learning platform](https://codeinstitute.net/)
+- [W3Schools](https://www.w3schools.com/js/default.asp)
+- [Youtube](https://www.youtube.com/)
+
+###  Acknowledgements
+
+- My Mentor Sammy Dartnell for helpful feedback and guidance on stages of the project. 
+- Code Institute Slack Community for being a great knowledge base.
+
+[Back to Top](<#table-of-content>)
 
 
 
