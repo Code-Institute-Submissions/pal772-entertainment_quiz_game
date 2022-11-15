@@ -103,8 +103,8 @@ def main():
     if __name__ == '__main__':
        execute()
 
-restart=input("Do you wish to play again:").lower()
-if restart == "yes":
+restart=input("Hi, do you wish to play a Quiz Game? yes or no").lower()
+if restart == 'yes' or restart() == 'y':
     main()
 
 else:
