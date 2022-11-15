@@ -1,13 +1,15 @@
-# Entertainment Quiz Game.. 
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-[Deployed Site](https://the-entertainment-quiz-game.herokuapp.com/)  
-(Note: Ctrl + click to open in a new tab)    
+# Entertainment Quiz Game..
+### Developer - Prithpal Phull 
 
-### Developer: Prithpal Phull
+![amiresponsive](views/readme-images/responsive.png)
 
-I've created a Game as Portfolio Project #3 (Python Essentials) for Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net).
+[Deployed Site](https://entertainment-quiz-game.herokuapp.com/)    
 
-The project purpose is presentation of an interactive game. The site should respond to the users actions.
+I've created a Quiz Game as Portfolio Project #3 (Python Essentials) for Diploma in Full Stack Software Development at [Code Institute](https://www.codeinstitute.net).
+
+The project purpose is to build a command-line application.
   
 <br>
 
@@ -22,7 +24,7 @@ The project purpose is presentation of an interactive game. The site should resp
 *   [Features](#features)    
     *   [Game introduction](#game-introduction)
     *   [Entertainment categories](#entertainment-categories)
-    *   [Instruction](#instructions)
+    *   [Instructions](#instructions)
     *   [Questions](#questions)
     *   [Score](#score)
 *   [Technology](#technology)
@@ -48,7 +50,7 @@ The project purpose is presentation of an interactive game. The site should resp
 - To provide a fun entertainment quiz game for a user.
 - To provide a variety of entertainment categories to choose from.
 - To provide a score, once the quiz is finished. 
-- To show which questions the user would of got wrong.
+- To show which questions the user would of got right and wrong as well.
 
 [Back to Top](<#table-of-content>)
 ## User Experience
@@ -57,7 +59,7 @@ The project purpose is presentation of an interactive game. The site should resp
 - Anyone who has an interest in General Entertainment.
 
 ### User Requirements and Expectations
-- When selecting an entertainment category, its on the specific subject they choose.
+- When selecting an Entertainment category, its on that specific subject they've choosen.
 - To show their score, once the quiz is finished.
 - Also to show once finished, which questions they might of got wrong.
 
@@ -65,18 +67,27 @@ The project purpose is presentation of an interactive game. The site should resp
 ## Features
 
 ### Game Introduction
-- When you first run the code, a message will appear saying 'Hi.... Want you to test your 
-  Entertainment Knowledge'.
-- You choose either, 'A for yes' or 'B for No'.
+- When you first run the program on Heroku, a message will appear saying 'Hi do you wish to play
+  a quiz game. You can either type 'yes or y' to carry on or any other button end the game.
+- Where then it will display 'Ok.... Have a great day'.
+- If you selected 'Yes', a new message will appear saying 'Hi.... Want you to test your 
+  Entertainment Knowledge'.<br>
+  <img src="views/readme-images/intro.png" alt="Screenshot of introduction" width="50%">
+- Then you either choose, 'A for Yes' or 'B for No'.<br>
 - If you choose 'A' to game moves on. 
-- If you choose 'B' for no. the game will simply end and say 'Hope you come back soon!'.
+- If you choose 'B' for No, the game will simply end and say 'Hope you come back soon!'.
 
 ### Entertainment Categories
 
-- Once you've clicked on 'A for Yes' in wanting to play the quiz.
+- Once you've clicked on 'A for Yes' for wanting to play the quiz.
 - There are a series of categories to choose from.
-- You can choose by selecting a number 1 to 4 from either - <br>(1). Movies.<br>(2). Music.<br>(3). 
+- You can choose by selecting a number from 1 to 4 from, which selects a category - <br>(1). Movies.
+  <br>(2). Music.<br>(3). 
   Sport.<br>(4). Television.
+  <br>
+  As shown in the image below.
+  <br>
+  <img src="views/readme-images/categories.png" alt="Screenshot of categories" width="50%">
 
 ### Instuctions
 
@@ -84,7 +95,10 @@ The project purpose is presentation of an interactive game. The site should resp
   on how to play the quiz. Choosing only the choice letter to the correct answer.
 - How much you get for each question right, and how much you loose for getting each 
   question wrong.
-- It then mentions the quiz will start momentarily, and wishing you good luck...
+- It then mentions the quiz will start momentarily, and wishing you Good luck...
+  <br>
+ <img src="views/readme-images/instruction.png" alt="Screenshot of instructions" width="50%">
+
 
 ### Questions
 
@@ -95,7 +109,7 @@ The project purpose is presentation of an interactive game. The site should resp
   again'. 
 - The option will appear again 'Enter choice [a/b/c/d]'.
 - Each question carries 1 point, if you get it right.
-- If you get it wrong, you loose a point.
+- If you get it wrong, you loose 2 points.
 
 ### Score
 
@@ -105,6 +119,12 @@ The project purpose is presentation of an interactive game. The site should resp
 - Either by displaying 'Correct' or 'Incorrect'
 - If it's incorrect, it will display the correct answer.
 - Your score will appear at the botton. On how many you have got right, out of 5.
+- The quiz will ask you at the end, if you'd like to test your Entertainment Knowledge?.
+<br>
+<img src="views/readme-images/results.png" alt="Screenshot of results" width="50%">
+
+
+
 
 [Back to Top](<#table-of-content>)
 ## Technology
@@ -134,12 +154,21 @@ I have manually tested this project by doing the following:
 - Passed the code through a PEP8 linter and confirmed there are no problems.
    * On your Gitpod Workspace, ran the command 'pip3 install pycodestyle'.<br>(Note, that this extention may already be installed, in which case it will do nothing).
    * In your workspace, press Ctrl+Shift+P(or Cmd+Shift+P on Mac).
-   * Type the word 'linter' into the search bar that appears, and click on 'python: Select Linter'.<br>As shown in [image 1](views/readme-images/linter.png)
-   * Select 'pycodestyle' from the list. As shown in [image 2](views/readme-images/image2.png)
-   * PEP8 errors will now be underlined in red, as well as being listed in the PROBLEMS tab besides your terminal.<br>As shown in [image 3](views/readme-images/image3.png)
+   * Type the word 'linter' into the search bar that appears, and click on 'python: Select Linter'.<br>As shown in image below -
+   <img src="views/readme-images/linter.png" alt="Screenshot of word linter" width="50%">
+  <br>
+   * Select 'pycodestyle' from the list.
+    <br>
+    <img src="views/readme-images/image2.png" alt="Screenshot of pycodestyle" width="50%">
+    <br>
+   * PEP8 errors will now be underlined in red, as well as being listed in the PROBLEMS tab besides 
+     your terminal.<br>
+     As shown in image below -
+   <br>
+   <img src="views/readme-images/image3.png" alt="Screenshot of PEP8 errors" width="50%">
+  
 
-
- ### Peer review
+  ### Peer review
 
    - I asked my friends and coleagues to test the quiz and I received a lot of positive    feedback, no major issues were reported.
    - Maybe add more questions.
@@ -168,17 +197,19 @@ I have manually tested this project by doing the following:
 
 ### Code
   * Code Institute Slack community, helping me get through this project.
-  * My Mentor, Sammy Dartnall making sure i covered all the necessary requirements.
+  * Python for Beginners by Timothy C. Needham
+  * Python crash course by Eric Matthes.
 
 ### Learning resources
 
 - [Code Institute course and learning platform](https://codeinstitute.net/)
 - [W3Schools](https://www.w3schools.com/js/default.asp)
 - [Youtube](https://www.youtube.com/)
+- Python -The Bible- by Maurice j. Thompson.
 
 ###  Acknowledgements
 
-- My Mentor Sammy Dartnell for helpful feedback and guidance on stages of the project. 
+- Code Insitute Tutor Assistance .
 - Code Institute Slack Community for being a great knowledge base.
 
 [Back to Top](<#table-of-content>)

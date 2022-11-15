@@ -1,16 +1,14 @@
 def main():
 
-
     # import requirements for this program
     import json
     import time
  
-
     CATEGORIES_LIST = ['movies', 'music', 'sport', 'television']
 
     def ask_one_question(question):
         """
-        Function to answering the queations, in lower OR upper case.
+        Function for choosing choice of category.
         """
         print("\n" + question)
         choice = input("Enter Your Choice [a/b/c/d]: ")
@@ -41,7 +39,7 @@ def main():
         correct and wrong answer.
         """
         score = 0
-        print("Instructions:\n1. Please enter only the choice letter to the correct answer.\n2. Each question carries 1 point\n3. Wrong answer, takes 1 point off.\nQuiz will start momentarily......... GOOD LUCK!\n")
+        print("Instructions:\n1. Please enter only the choice letter to the correct answer.\n2. Each question carries 1 point\n3. Wrong answer, takes 2 points off.\nQuiz will start momentarily......... GOOD LUCK!\n")
         time.sleep(10)
         for key, meta in questions.items():
            questions[key]["user_response"] = ask_one_question(meta["question"])
