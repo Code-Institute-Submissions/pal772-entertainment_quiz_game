@@ -68,12 +68,12 @@ The project purpose is to build a command-line application.
 
 ### Game Introduction
 - When you first run the program on Heroku, a message will appear saying 'Hi do you wish to play
-  a quiz game. You can either type 'yes or y' to carry on or any other button end the game.
+  a quiz game. You can either type 'Yes or Y' to carry on or any other button end the game.
 - Where then it will display 'Ok.... Have a great day'.
 - If you selected 'Yes', a new message will appear saying 'Hi.... Want you to test your 
   Entertainment Knowledge'.<br>
   <img src="views/readme-images/intro.png" alt="Screenshot of introduction" width="50%">
-- Then you either choose, 'A for Yes' or 'B for No'.<br>
+- You either choose, 'A for Yes' or 'B for No'.<br>
 - If you choose 'A' to game moves on. 
 - If you choose 'B' for No, the game will simply end and say 'Hope you come back soon!'.
 
@@ -81,7 +81,7 @@ The project purpose is to build a command-line application.
 
 - Once you've clicked on 'A for Yes' for wanting to play the quiz.
 - There are a series of categories to choose from.
-- You can choose by selecting a number from 1 to 4 from, which selects a category - <br>(1). Movies.
+- You can choose by selecting a number from 1 to 4, from which it selects a category - <br>(1). Movies.
   <br>(2). Music.<br>(3). 
   Sport.<br>(4). Television.
   <br>
@@ -114,11 +114,11 @@ The project purpose is to build a command-line application.
 ### Score
 
 - Once you have completed all 5 questions, results will appear.
-- It will show you the resuts to each question you have got right, and which ones you have got 
+- It will show you the results to each question you have got right, and which ones you have got 
   wrong.
 - Either by displaying 'Correct' or 'Incorrect'
 - If it's incorrect, it will display the correct answer.
-- Your score will appear at the botton. On how many you have got right, out of 5.
+- Your score will appear at the botton, on how many you have got right out of 5.
 - The quiz will ask you at the end, if you'd like to test your Entertainment Knowledge?.
 <br>
 <img src="views/readme-images/results.png" alt="Screenshot of results" width="50%">
