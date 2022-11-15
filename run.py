@@ -87,7 +87,7 @@ def main():
         """
         Introduction function on testing your Entertainment Knowledge
         """
-        print("Hi.... Want to test your Entertainment knowledge?\nA. Yes\nB. No")
+        print("Hi.... Want to test your Entertainment knowledge?\nA. for Yes\nB. for No")
         play = input()
         if play.lower() == 'a' or play.lower() ==  'y':
            play_quiz()
@@ -102,14 +102,16 @@ def main():
 
     if __name__ == '__main__':
        execute()
-
-restart=input("Hi, do you wish to play a Quiz Game? yes or no").lower()
-if restart == 'yes' or restart() == 'y':
+    """
+    Looping the code back to the beginning
+    """
+restart=input("Hi...... Do you wish to play a Quiz Game?\nYes\nNo\n").lower()
+if restart == 'yes' or restart == 'y':
     main()
-
 else:
-    exit()   
+    exit("Ok.... Have a great day!")  
 
+#where the code starts
 main()         
 
 
