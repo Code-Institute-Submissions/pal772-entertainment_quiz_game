@@ -32,6 +32,7 @@ The project purpose is to build a command-line application.
     *   [Tools used](#Tools-used)
     *   [Import requirements](#import-requirements)
 *   [Testing and validation](testing-validation)
+    *   [Input validation and error-checking](#validation-and-error-checking)
     *   [Bugs/known issues](#bugsknown-issues)
     *   [Peer review](#peer-review)
 *   [Deployment](#deployment)
@@ -68,7 +69,7 @@ The project purpose is to build a command-line application.
 
 ### Game Introduction
 - When you first run the program on Heroku, a message will appear saying 'Hi do you wish to play
-  a quiz game. You can either type 'Yes or Y' to carry on or any other button end the game.
+  a quiz game. You can either type 'Yes or Y' to carry on or tap any other button to end the game.
 - Where then it will display 'Ok.... Have a great day'.
 - If you selected 'Yes', a new message will appear saying 'Hi.... Want you to test your 
   Entertainment Knowledge'.<br>
@@ -89,7 +90,7 @@ The project purpose is to build a command-line application.
   <br>
   <img src="views/readme-images/categories.png" alt="Screenshot of categories" width="50%">
 
-### Instuctions
+### Instructions
 
 - Once you've chosen a category of your choice, instructions will appear
   on how to play the quiz. Choosing only the choice letter to the correct answer.
@@ -102,7 +103,9 @@ The project purpose is to build a command-line application.
 
 ### Questions
 
-- Each category has selection of 5 questions you need to get right.
+- Each category has 5 Entertainment sujects, on which the user chooses one.
+- The user has a choice of Movies, Music, Sport or Television.
+- Each Entertainment subject, there are 5 questions to answer.
 - All the questions are multiple choice.
 - You choose either 'a, b, c or d', to the correct answer. You can click either upper or lower case.
 - If you click on anything other than the choosen letter, it will say 'Invalid choice. Choose 
@@ -122,9 +125,6 @@ The project purpose is to build a command-line application.
 - The quiz will ask you at the end, if you'd like to test your Entertainment Knowledge?.
 <br>
 <img src="views/readme-images/results.png" alt="Screenshot of results" width="50%">
-
-
-
 
 [Back to Top](<#table-of-content>)
 ## Technology
@@ -149,9 +149,26 @@ The project purpose is to build a command-line application.
 [Back to Top](<#table-of-content>)
 ## Testing and validation
 
-I have manually tested this project by doing the following:
+### Input validation and error-checking
+   * When asked at the beginning of the Quiz if you want to test your Knowledge, you can only 
+     type 'A for Yes' or 'B for No'. <br>Anything other, it will tell you it don't uderstand,
+     and ask you to choose ethier A to play or B to Quit.
+   * When answering questions, you can only select the corresponding one to the question.
+     If you select a randon letter, it will as you again.
+   * You can only give one answer to each queston.
+    <br>
+    <img src="views/readme-images/test1.png" alt="Screenshot of input validation" width="50%">
+    <br>
+   * You can only select 1, 2, 3, or 4, in the choosen categories.
+     <br>
+     Anything diferent, it will say 'Invalid choice, enter again.
+     <br>
+    <img src="views/readme-images/test2.png" alt="Screenshot of category test" width="50%">
+    <br>
+    I have manually tested this project by doing the following:
 
 - Passed the code through a PEP8 linter and confirmed there are no problems.
+
    * On your Gitpod Workspace, ran the command 'pip3 install pycodestyle'.<br>(Note, that this extention may already be installed, in which case it will do nothing).
    * In your workspace, press Ctrl+Shift+P(or Cmd+Shift+P on Mac).
    * Type the word 'linter' into the search bar that appears, and click on 'python: Select Linter'.<br>As shown in image below -
