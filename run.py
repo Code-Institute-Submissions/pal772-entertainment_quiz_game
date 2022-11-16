@@ -12,7 +12,7 @@ def main():
         """
         print("\n" + question)
         choice = input("Enter Your Choice [a/b/c/d]: ")
-        while(True):
+        while (True):
             if choice.lower() in ['a', 'b', 'c', 'd']:
                 return choice
         else:
@@ -26,12 +26,12 @@ def main():
         """
         actual = meta["answer"]
         if meta["user_response"].lower() == actual.lower():
-           print("Q.{0} Correct!\n".format(key))
-           return 1
+            print("Q.{0} Correct!\n".format(key))
+            return 1
         else:
-          print("Q.{0} Incorrect!".format(key))
-          print("Correct Answer is ({0})".format(actual))
-          return -1
+            print("Q.{0} Incorrect!".format(key))
+            print("Correct Answer is ({0})".format(actual))
+            return -1
 
     def test(questions): 
         """
@@ -42,7 +42,7 @@ def main():
         print("Instructions:\n1. Please enter only the choice letter to the correct answer.\n2. Each question carries 1 point\n3. Wrong answer, takes 2 points off.\nQuiz will start momentarily......... GOOD LUCK!\n")
         time.sleep(10)
         for key, meta in questions.items():
-           questions[key]["user_response"] = ask_one_question(meta["question"])
+            questions[key]["user_response"] = ask_one_question(meta["question"])
 
         print("\n-------------- RESULT ----------------\n")
         for key, meta in questions.items():
@@ -66,10 +66,10 @@ def main():
         """
         flag = False
         try:
-           choice = int(input("Welcome to Today's Entertainment Quiz!\nChoose your Entertainment of interest:\n(1). Movies\n(2). Music\n(3). Sport\n(4). Television\nEnter Your Choice [1/2/3/4]: "))
-           if choice > len(CATEGORIES_LIST) or choice < 1:
-            print("Invalid Choice. Enter Again")
-            flag = True
+         choice = int(input("Welcome to Today's Entertainment Quiz!\nChoose your Entertainment of interest:\n(1). Movies\n(2). Music\n(3). Sport\n(4). Television\nEnter Your Choice [1/2/3/4]: "))
+         if choice > len(CATEGORIES_LIST) or choice < 1:
+           print("Invalid Choice. Enter Again")
+          flag = True
         except ValueError as e:
             print("Invalid Choice. Enter Again")
             flag = True
@@ -87,7 +87,7 @@ def main():
         """
         print("Hi.... Want to test your Entertainment knowledge?\nA. for Yes\nB. for No")
         play = input()
-        if play.lower() == 'a' or play.lower() ==  'y':
+        if play.lower() == 'a' or play.lower() == 'y':
            play_quiz()
         elif play.lower() == 'b':
            print("Hope you come back soon!")
@@ -109,7 +109,9 @@ if restart == 'yes' or restart == 'y':
 else:
     exit("Ok.... Have a great day!")  
 
-#where the code starts
+"""
+where the code starts
+"""
 main()         
 
 

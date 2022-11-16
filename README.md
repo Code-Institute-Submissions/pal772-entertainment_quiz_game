@@ -57,9 +57,10 @@ The project purpose is to build a command-line application.
 ## User Experience
 
 ### Target Audience
-- Anyone who has an interest in General Entertainment.
+- Anyone who has an interest in testing thier knowledge on General Entertainment.
 
 ### User Requirements and Expectations
+- A selection of Entertainment categories to choose from.
 - When selecting an Entertainment category, its on that specific subject they've choosen.
 - To show their score, once the quiz is finished.
 - Also to show once finished, which questions they might of got wrong.
@@ -69,8 +70,8 @@ The project purpose is to build a command-line application.
 
 ### Game Introduction
 - When you first run the program on Heroku, a message will appear saying 'Hi do you wish to play
-  a quiz game. You can either type 'Yes or Y' to carry on or tap any other button to end the game.
-- Where then it will display 'Ok.... Have a great day'.
+  a quiz game.<br>You can either type 'Yes or Y' to carry on or tap any other button to quit.
+- If you decide to quit, it will display 'Ok.... Have a great day'.
 - If you selected 'Yes', a new message will appear saying 'Hi.... Want you to test your 
   Entertainment Knowledge'.<br>
   <img src="views/readme-images/intro.png" alt="Screenshot of introduction" width="50%">
@@ -82,7 +83,7 @@ The project purpose is to build a command-line application.
 
 - Once you've clicked on 'A for Yes' for wanting to play the quiz.
 - There are a series of categories to choose from.
-- You can choose by selecting a number from 1 to 4, from which it selects a category - <br>(1). Movies.
+- You can choose a category of your choice, by selecting a number from 1 to 4- <br>(1). Movies.
   <br>(2). Music.<br>(3). 
   Sport.<br>(4). Television.
   <br>
@@ -103,7 +104,7 @@ The project purpose is to build a command-line application.
 
 ### Questions
 
-- Each category has 5 Entertainment sujects, on which the user chooses one.
+- Each category has 5 Entertainment subjects, on which the user chooses one.
 - The user has a choice of Movies, Music, Sport or Television.
 - Each Entertainment subject, there are 5 questions to answer.
 - All the questions are multiple choice.
@@ -152,16 +153,16 @@ The project purpose is to build a command-line application.
 ### Input validation and error-checking
    * When asked at the beginning of the Quiz if you want to test your Knowledge, you can only 
      type 'A for Yes' or 'B for No'. <br>Anything other, it will tell you it don't uderstand,
-     and ask you to choose ethier A to play or B to Quit.
+     and ask you to choose ethier 'A to play or B to Quit'.
    * When answering questions, you can only select the corresponding one to the question.
-     If you select a randon letter, it will as you again.
+     If you select a randon letter, it will ask you again.
    * You can only give one answer to each queston.
     <br>
     <img src="views/readme-images/test1.png" alt="Screenshot of input validation" width="50%">
     <br>
    * You can only select 1, 2, 3, or 4, in the choosen categories.
      <br>
-     Anything diferent, it will say 'Invalid choice, enter again.
+     Anything different, it will say 'Invalid choice. Enter again.
      <br>
     <img src="views/readme-images/test2.png" alt="Screenshot of category test" width="50%">
     <br>
@@ -187,7 +188,7 @@ The project purpose is to build a command-line application.
 
   ### Peer review
 
-   - I asked my friends and coleagues to test the quiz and I received a lot of positive    feedback, no major issues were reported.
+   - I asked my friends and colleagues to test the quiz and I received a lot of positive    feedback, no major issues were reported.
    - Maybe add more questions.
    - For future reference, could add levels of difficulty and a timer.
 
