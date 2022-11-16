@@ -69,7 +69,7 @@ def main():
          choice = int(input("Welcome to Today's Entertainment Quiz!\nChoose your Entertainment of interest:\n(1). Movies\n(2). Music\n(3). Sport\n(4). Television\nEnter Your Choice [1/2/3/4]: "))
          if choice > len(CATEGORIES_LIST) or choice < 1:
            print("Invalid Choice. Enter Again")
-          flag = True
+           flag = True
         except ValueError as e:
             print("Invalid Choice. Enter Again")
             flag = True
